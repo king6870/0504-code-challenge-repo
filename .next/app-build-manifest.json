@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "pages": {
     "/blog/posts/page": [
       "static/chunks/webpack.js",
@@ -22,4 +23,7 @@
       "static/chunks/app/blog/post/insert/page.js"
     ]
   }
+=======
+  "pages": {}
+>>>>>>> 8cba0dd5a1b0dc7e7b33c81e426084f23c69dfca
 }

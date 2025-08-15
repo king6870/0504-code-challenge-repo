@@ -23,7 +23,11 @@ export default function Page() {
   const handleSubmit = (e: React.ChangeEvent<HTMLInputElement>) => {
     e.preventDefault();
     const uuid = uuidv4();
+<<<<<<< HEAD
     fetch(`/api/posts?id=${uuid}&title=${formData.title}&content=${formData.content}&date=${formData.date}`, {
+=======
+    fetch(`http://localhost:3000/api/insert-post?id=${uuid}&title=${formData.title}&content=${formData.content}&date=${formData.date}`, {
+>>>>>>> 8cba0dd5a1b0dc7e7b33c81e426084f23c69dfca
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

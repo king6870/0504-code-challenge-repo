@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 {
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/api/posts/route": "app/api/posts/route.js",
   "/blog/posts/page": "app/blog/posts/page.js",
   "/blog/post/insert/page": "app/blog/post/insert/page.js"
 }
+=======
+{}
+>>>>>>> 8cba0dd5a1b0dc7e7b33c81e426084f23c69dfca
